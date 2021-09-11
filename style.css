@@ -1,0 +1,58 @@
+:root{
+  font-size:16px;
+  font-family: 'Urbanist', sans-serif;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.5rem;
+  color: #0486B5;
+  border-bottom: solid grey 2px;
+}
+p{
+  font-size:0.9rem;
+}
+body {
+  padding: 4vw;
+}
+header{
+  position:relative;
+  border:3px solid grey;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw;
+}
+
+header h1{
+  color: #0486B5;
+  font-size: 5vw;
+}
+
+header p{
+position:absolute;
+background-color: white;
+z-index:10;
+bottom: 0;
+transform: translateY(50%);
+padding:1vw;
+font-size:2vw;
+
+}
+
+main{
+  margin-top: 5vh;
+  display:flex;
+}
+main section#left{
+  width:50vw;
+  column-gap: 5vw;
+  
+}
+
+main section#right{
+  width:30vw;
+  column-gap:5vw;
+  
+}
