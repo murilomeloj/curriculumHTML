@@ -8,6 +8,7 @@ h1{
 h2{
   font-size: 1.5rem;
   color: #0486B5;
+  font-style: italic;
   border-bottom: solid grey 2px;
 }
 p{
@@ -22,7 +23,7 @@ header{
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding: 2vw;
+  padding: 1vw;
 }
 
 header h1{
@@ -35,15 +36,16 @@ position:absolute;
 background-color: white;
 z-index:10;
 bottom: 0;
-transform: translateY(50%);
+transform: translateY(90%);
 padding:1vw;
-font-size:2vw;
+font-size:1.5vw;
 
 }
 
 main{
   margin-top: 5vh;
   display:flex;
+  justify-content: space-between;
 }
 main section#left{
   width:50vw;
@@ -55,4 +57,7 @@ main section#right{
   width:30vw;
   column-gap:5vw;
   
+}
+article p{
+  font-style:italic;
 }
